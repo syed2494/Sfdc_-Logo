@@ -1,0 +1,14 @@
+First Download the ImageFile in PNG/JPEG Format.
+
+Now Go to SetUp---->In HomePage --> Search Static resources--->Upload the image .
+
+Go to Developer console.
+
+Write this code in lightning component.
+
+ <div class="slds-media__figure">
+                    <span class="slds-icon_container slds-icon-standard-account" title="WhatsApp">
+                  ...  Here u have to give static Resource ladel name..
+                        <img src="{!$Resource.whatsapp}" style="width:60px"/>  
+                    </span>
+                </div>
